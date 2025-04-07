@@ -1,3 +1,4 @@
+import { CallToActionSection } from "./call-to-action-section";
 import { DiscoverSection } from "./discover-section";
 import { FeaturesSection } from "./features-section";
 import { HeroSection } from "./hero-section";
@@ -7,7 +8,8 @@ export default function LandingPage() {
     <div>
       <HeroSection />
       <FeaturesSection />
-      <DiscoverSection/>
+      <DiscoverSection />
+      <CallToActionSection />
     </div>
   );
 }
