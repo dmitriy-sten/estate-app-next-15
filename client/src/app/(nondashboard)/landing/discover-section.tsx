@@ -42,7 +42,7 @@ export const DiscoverSection = () => {
           <p className="mt-4 text-lg text-gray-600">
             Find your Dream Rental Property Today
           </p>
-          <p className="mt-2 text-gray-100 max-w-3xl mx-auto">
+          <p className="mt-2 text-gray-300 max-w-3xl mx-auto">
             Searching for your dream rental property has never been easier. With
             our user-friendly search feature, you can quickly find the perfect
             home that meets all your needs. Start your search today and discover
