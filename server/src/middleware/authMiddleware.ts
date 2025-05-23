@@ -49,7 +49,9 @@ export const authMiddleware = (allowedRules: string[]) => {
         }
 
         catch (error) {
-            console.error(error)
+            console.error("Failed to decode token:", error)
+            res.status(400).json({ message: "Invalid token" })
+            return
         }
 
     }
